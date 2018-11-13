@@ -1,0 +1,28 @@
+/**
+ * A css reset scss file for an app-like shell.
+ * Can be embedded into index.html to speed up app load times.
+ * But be careful with components with shadow dom / emulated shadow dom encapsulation (= default),
+ * for which global styles will not be applied
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html, body {
+  // set body height to minimum 100%
+  min-height: 100%;
+
+  // reset margin & padding
+  margin: 0;
+  padding: 0;
+
+  // make body topmost parent for absolute positioning
+  position: relative;
+}
