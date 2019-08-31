@@ -1,5 +1,7 @@
 # SimpleCashflowCalc
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bjesuiter/simple-cashflow-calc.svg)](https://greenkeeper.io/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
